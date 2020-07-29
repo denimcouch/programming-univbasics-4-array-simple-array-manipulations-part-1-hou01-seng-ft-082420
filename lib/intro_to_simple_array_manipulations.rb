@@ -12,7 +12,8 @@ end
 
 def using_pop(Array)
   continents = ["Africa", "Asia", "Europe", "North America", "South America", "Oceania", "Antarctica"]
-  continents.pop  
+  continents.pop
+  continents
 end
 
 def pop_with_args(array)
@@ -22,7 +23,8 @@ end
 
 def using_shift 
   my_favorite_cities = ["Lagos", "Cape Town", "Nairobi", "San Francisco", "Gaborone", "New York", "Berlin", "London"]
-  
+  my_favorite_cities.shift
+  my_favorite_cities
 end
 
 def shift_with_args
