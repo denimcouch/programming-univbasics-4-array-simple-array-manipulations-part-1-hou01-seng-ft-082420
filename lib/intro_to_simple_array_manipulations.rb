@@ -11,25 +11,19 @@ def using_unshift(array, string)
 end
 
 def using_pop(array)
-  continents = ["Africa", "Asia", "Europe", "North America", "South America", "Oceania", "Antarctica"]
-  continents.pop
+  array.pop
 end
 
-def pop_with_args
-  dog_breeds = ["Great Dane", "Golden Retriever", "Chihuahua", "Shiba Inu"]
-  dog_breeds.pop
-  dog_breeds.pop
-  dog_breeds.length
+def pop_with_args(array)
+  array.pop
+  array.pop
 end
 
-def using_shift 
-  my_favorite_cities = ["Lagos", "Cape Town", "Nairobi", "San Francisco", "Gaborone", "New York", "Berlin", "London"]
-  my_favorite_cities.shift
+def using_shift(array) 
+  array.shift
 end
 
 def shift_with_args
-  ice_cream_brands = ["Blue Bell Creameries", "Ben & Jerry's", "Baskin Robbins", "Braum's", "Breyer's"]
-  ice_cream_brands.shift
-  ice_cream_brands.shift
-  ice_cream_brands.length
+  array.shift(_with_args)
+  array.shift
 end
