@@ -8,7 +8,7 @@ def using_unshift(array, string)
   bouroughs_in_nyc.unshift("Staten Island")
 end
 
-def using_pop(array)
+def using_pop(array, string)
   continents = ["Africa", "Asia", "Europe", "North America", "South America", "Oceania", "Antarctica"]
   continents.pop 
 end
@@ -18,7 +18,7 @@ def pop_with_args(array, string)
   dog_breeds.pop[2]
 end
 
-def using_shift(array) 
+def using_shift(array, string) 
   my_favorite_cities = ["Lagos", "Cape Town", "Nairobi", "San Francisco", "Gaborone", "New York", "Berlin", "London"]
   my_favorite_cities.shift 
 end
