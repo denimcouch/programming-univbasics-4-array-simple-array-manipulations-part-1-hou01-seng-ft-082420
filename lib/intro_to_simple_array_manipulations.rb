@@ -9,11 +9,12 @@ def using_unshift
 end
 
 def using_pop
-  
-
+  continents = ["Africa", "Asia", "Europe", "North America", "South America", "Oceania", "Antarctica"]
+  continents.pop 
 end
 
 def pop_with_args
+  
   
 end
 
