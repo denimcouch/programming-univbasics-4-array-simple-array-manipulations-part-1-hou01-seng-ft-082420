@@ -10,18 +10,18 @@ def using_unshift(array, string)
   bouroughs_in_nyc.unshift("Staten Island")
 end
 
-def using_pop
-  @continents = ["Africa", "Asia", "Europe", "North America", "South America", "Oceania", "Antarctica"]
- 
+def using_pop(Array)
+  continents = ["Africa", "Asia", "Europe", "North America", "South America", "Oceania", "Antarctica"]
+  continents.pop  
 end
 
 def pop_with_args(array)
-  @dog_breeds = ["Great Dane", "Golden Retriever", "Chihuahua", "Shiba Inu"]
+  dog_breeds = ["Great Dane", "Golden Retriever", "Chihuahua", "Shiba Inu"]
   
 end
 
 def using_shift 
-  @my_favorite_cities = ["Lagos", "Cape Town", "Nairobi", "San Francisco", "Gaborone", "New York", "Berlin", "London"]
+  my_favorite_cities = ["Lagos", "Cape Town", "Nairobi", "San Francisco", "Gaborone", "New York", "Berlin", "London"]
   
 end
 
