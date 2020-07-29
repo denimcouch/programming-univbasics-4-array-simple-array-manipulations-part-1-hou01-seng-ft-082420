@@ -1,3 +1,5 @@
+require 'pry' 
+
 def using_push(array, string)
   colors_in_the_rainbow = ["red", "orange", "yellow", "green", "blue", "indigo"]
   colors_in_the_rainbow.push("violet")
@@ -12,6 +14,8 @@ def using_pop(array)
   continents = ["Africa", "Asia", "Europe", "North America", "South America", "Oceania", "Antarctica"]
   continents.pop 
 end
+
+binding.pry
 
 def pop_with_args(array, string)
   dog_breeds = ["Great Dane", "Golden Retriever", "Chihuahua", "Shiba Inu"]
