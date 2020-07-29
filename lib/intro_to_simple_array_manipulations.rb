@@ -20,7 +20,7 @@ def pop_with_args(array, string)
   dog_breeds.pop[2]
 end
 
-def using_shift(array, string) 
+def using_shift 
   my_favorite_cities = ["Lagos", "Cape Town", "Nairobi", "San Francisco", "Gaborone", "New York", "Berlin", "London"]
   my_favorite_cities.shift 
 end
